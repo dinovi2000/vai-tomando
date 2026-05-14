@@ -1,0 +1,41 @@
+
+.explicacao {
+    display: none;
+}
+
+.explicacao.ativo {
+    display: block;
+}
+
+
+.seta.ativo {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.seta {
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.seta:hover {
+    color: rgb(114, 170, 170);
+    font-size: 20px;
+}
+
+.conteudos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.item {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(250, 218, 113);
+    max-width: 30%;
+    word-wrap: break-word;
+}
